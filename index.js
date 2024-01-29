@@ -26,7 +26,7 @@ class student{
     }
 
     static ClassDetail(){
-        return "This is the student class which can be used to create the many students instances"
+        return `The Count of students in the class is ${student.count}`
     }
 
         get fetchdetail(){
@@ -112,3 +112,6 @@ console.log('\n');
     console.log('\n \n');
 });
 
+
+
+console.log(student.ClassDetail());
